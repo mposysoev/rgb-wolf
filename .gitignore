@@ -1,0 +1,13 @@
+.DS_Store
+
+depricated
+output_upscaled_images
+output_raw_images
+
+*.png
+*.mp4
+
+ffmpeg
+
+movie*
+
