@@ -13,7 +13,7 @@ applied to images.
 2. Choose random pixel in the picture
 3. Check if neighbour pixels have similar color
 4. Change the color of whole cluster of similar pixels
-5. Repete the procedure while this the picture is not one color
+5. Repeat the procedure while this the picture is not one color
 
 ## Results
 
