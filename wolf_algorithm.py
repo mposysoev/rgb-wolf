@@ -3,9 +3,7 @@ import dataclasses
 from copy import deepcopy
 import numpy as np
 from PIL import Image
-from tqdm import tqdm
 from os import system
-import sys
 
 
 @dataclass
@@ -160,7 +158,7 @@ def main():
     SAVE_FREQ = 1  # frequency of saving pictures
 
     picture = Picture(SIZE_X, SIZE_Y)
-    save_image(picture, f"output_raw_images/0.png")
+    save_image(picture, "output_raw_images/0.png")
 
     counter_changed_pixels = 0
     i = 0

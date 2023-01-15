@@ -144,7 +144,7 @@ def main():
     SAVE_FREQ = 1
 
     initialize_img(colors, SIZE_X, SIZE_Y)
-    save_image(colors, f"output_raw_images/wolf_0.png", SIZE_X, SIZE_Y)
+    save_image(colors, "output_raw_images/wolf_0.png", SIZE_X, SIZE_Y)
 
     for i in tqdm(range(NUM_OF_STEPS)):
         wolf_step(colors, EPS, SIZE_X, SIZE_Y)
